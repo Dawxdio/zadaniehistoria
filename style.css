@@ -81,6 +81,7 @@ nav{
     grid-template-columns: auto;
 }
 aside{
+    margin-top: 1em;
     height:20em;
     border: #ddd 1px solid;
 }
