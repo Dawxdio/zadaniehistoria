@@ -26,6 +26,7 @@ nav{
     text-align: center;
     padding: 1em;
     border-left: #ddd 1px solid;
+    cursor: pointer;
 }
 .nawigacja:hover{
     background-color: #ddd;
