@@ -1,0 +1,85 @@
+/*wszędzie oprócz .info, border: #ddd 1px solid; jest tymczasowy i tylko do testowania, nie dotyczy to border-top,-left,-right,-bottom*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Fira Sans, Arial, Helvetica, sans-serif;
+}
+header{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    height: 6em;
+    display:flex;
+    align-items: center;
+    border-bottom: #ddd 1px solid;
+}
+nav{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    height: 3em;
+    display: flex;
+    border-bottom: #ddd 1px solid;
+    font-weight: 700;
+}
+.nawigacja{
+    text-align: center;
+    padding: 1em;
+    border-left: #ddd 1px solid;
+}
+.nawigacja:hover{
+    background-color: #ddd;
+}
+.info{
+    margin: 1.3em 15vw;
+    height: 5em;
+    border: #ddd 1px solid;
+}
+.title{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    border-bottom: #ddd 1px solid;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    padding:0.5em;
+}
+.artykuly1{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    min-height: 20em;
+    min-width: 65em;
+    display: flex;
+}
+.artykuly2{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    min-height: 15em;
+    min-width: 65em;
+    display: flex;
+}
+.big{
+    width: 41em;
+    margin:1em 1em 1em 0;
+    border: #ddd 1px solid;
+}
+.med{
+    width: 20em;
+    margin:1em 1em 1em 0;
+    border: #ddd 1px solid;
+}
+.small{
+    margin-top: 1em;
+    width: 15em;
+    height: 5em;
+    border: #ddd 1px solid;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto;
+}
+aside{
+    height:20em;
+    border: #ddd 1px solid;
+}
