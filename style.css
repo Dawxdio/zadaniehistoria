@@ -129,3 +129,36 @@ aside{
     border-radius: 30px;
     background-color: #eee;
 }
+
+/*Style do podstron*/
+
+.subsite-main .subsite-info{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    margin-top: 4vw;
+    font-size: 3.5em;
+    font-weight: bolder;
+}
+.subsite-main .subsite-arrows{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 30px;
+}
+.subsite-main .subsite-photo{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    margin-top: 50px;
+}
+.subsite-main .subsite-article{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    margin-top: 2vw;
+    font-size: 1.5em;
+}
+.subsite-aside{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    margin-top: 1em;
+    height:10em;
+    border: #ddd 1px solid;
+}
