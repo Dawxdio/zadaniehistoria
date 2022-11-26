@@ -93,3 +93,37 @@ aside{
 {
     height: 100%;
 }
+.fakeInput
+{
+    padding: 10px;
+    border:0px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #eee;
+}
+.inputIcon
+{
+    background-color: #eee;
+    border:0px;
+    padding: 10px;
+    border-top-left-radius: 30px;
+    
+    border-bottom-left-radius: 30px;
+}
+.inputIcon img
+{
+    width: 10px;
+}
+.inputButton2
+{
+    border-radius: 30px;
+    padding: 10px;
+    border: 0px;
+    background-color: #ffd200;
+    
+}
+.searchBar
+{
+    border-radius: 30px;
+    background-color: #eee;
+}
