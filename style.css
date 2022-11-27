@@ -121,7 +121,13 @@ aside{
     padding: 10px;
     border: 0px;
     background-color: #ffd200;
+    transition: 0.3s;
     
+}
+.inputButton2:hover{
+    background-color: black;
+    color: #ffd200;
+    cursor: pointer;
 }
 .searchBar
 {
