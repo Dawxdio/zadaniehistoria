@@ -31,7 +31,8 @@ nav{
     transition: 0.3s;
 }
 .nawigacja:hover{
-    background-color: #ffd200;
+    background-color: #4d4d4d;
+    color: #ddd;
 }
 .info{
     margin: 1.3em 15vw;
