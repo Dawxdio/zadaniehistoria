@@ -1,4 +1,5 @@
 /*wszędzie oprócz .info, border: #ddd 1px solid; jest tymczasowy i tylko do testowania, nie dotyczy to border-top,-left,-right,-bottom*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -136,7 +137,7 @@ aside{
     background-color: #eee;
 }
 
-/*Style do podstron*/
+/*Style do podstrony afrika*/
 
 .subsite-main .subsite-info{
     padding-left: 15vw;
@@ -146,20 +147,10 @@ aside{
     font-weight: bolder;
 }
 .subsite-main .subsite-arrows{
+    font-family: 'Roboto Mono', monospace;
     padding-left: 15vw;
     padding-right: 15vw;
     padding-top: 30px;
-}
-.subsite-main .subsite-photo{
-    padding-left: 15vw;
-    padding-right: 15vw;
-    margin-top: 50px;
-}
-.subsite-main .subsite-article{
-    padding-left: 15vw;
-    padding-right: 15vw;
-    margin-top: 2vw;
-    font-size: 1.5em;
 }
 .subsite-aside{
     padding-left: 15vw;
@@ -167,4 +158,83 @@ aside{
     margin-top: 1em;
     height:10em;
     border: #ddd 1px solid;
+}
+
+
+
+.article1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    display: flex;
+}
+.article1 .subsite-photo{
+    max-width: 44%;
+    height: auto;
+    border: #ddd 2px solid;
+}
+.article1 .subsite-article{
+    padding-left: 15px;
+    font-size: 1.3em;
+}
+.article1 .article-header{
+    font-weight: bolder;
+}
+
+
+
+.article2{
+    margin-bottom: 20px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    display: flex;
+}
+.article2 .subsite-photo{
+    max-width: 45%;
+    height: auto;
+    padding-right: 15px;
+
+}
+.article2 .subsite-article{
+    font-size: 1.3em;
+}
+.article2 .article-header{
+    font-weight: bolder;
+}
+
+.added-info{
+    margin-bottom: 20px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    border: black 2px dashed;
+}
+.added-info .article-header{
+    font-weight: bolder;
+}
+
+
+.article3{
+    margin-bottom: 20px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    display: flex;
+}
+.article3 .subsite-photo{
+    max-width: 45%;
+    height: auto;
+    padding-right: 15px;
+}
+.article3 .subsite-article{
+    font-size: 1.3em;
+}
+
+.subsite-footer{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(180, 180, 180);
 }
