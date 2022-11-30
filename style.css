@@ -131,6 +131,10 @@ aside{
 .logo
 {
     width: 30%;
+    transition: 0.5s;
+}
+.logo:hover{
+    width: 32%
 }
 .info img
 {
@@ -178,7 +182,7 @@ aside{
     background-color: #eee;
 }
 
-/*Style do podstrony afrika*/
+/*Style do podstrony afryka*/
 
 .subsite-main .subsite-info{
     padding-left: 15vw;
@@ -187,7 +191,17 @@ aside{
     font-size: 3.5em;
     font-weight: bolder;
 }
-.subsite-main .subsite-arrows{
+.arrows{
+    display: flex;
+}
+.arrows .subsite-arrows{
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 30px;
+}
+.arrows .subsite-arrows2{
+    float: right;
     font-family: 'Roboto Mono', monospace;
     padding-left: 15vw;
     padding-right: 15vw;
@@ -234,11 +248,12 @@ aside{
 .article2 .subsite-photo{
     max-width: 45%;
     height: auto;
-    padding-right: 15px;
+    border: #ddd 2px solid;
 
 }
 .article2 .subsite-article{
     font-size: 1.3em;
+    padding-left: 15px;
 }
 .article2 .article-header{
     font-weight: bolder;
@@ -268,14 +283,35 @@ aside{
 .article3 .subsite-photo{
     max-width: 45%;
     height: auto;
-    padding-right: 15px;
+    border: #ddd 2px solid;
 }
 .article3 .subsite-article{
     font-size: 1.3em;
+    padding-left: 15px;
+}
+.article3 .article-header{
+    font-weight: bolder;
 }
 
 .subsite-footer{
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     color: rgb(180, 180, 180);
+    background-color: #4d4d4d;
+}
+
+.movie .desctription{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.movie .movie-url{
+    margin-left: 735px;
+
+}
+.hr-strona{
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
