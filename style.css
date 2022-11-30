@@ -114,6 +114,23 @@ nav{
 {
     background-image: url("images/gify_testowe/pacific.gif");
 }
+#ocean
+{
+    background-position: 0 -150px;
+    background-image: url("images/gify_testowe/ocean-static.png");
+}
+#ocean:hover
+{
+    background-image: url("images/gify_testowe/ocean.gif");
+}
+#harbor
+{
+    background-image: url("images/gify_testowe/harbor-static.png");
+}
+#harbor:hover
+{
+    background-image: url("images/gify_testowe/harbor.gif");
+}
 .small{
     margin-top: 1em;
     width: 15em;
