@@ -5,8 +5,8 @@
 }
 body{
     margin: 0;
-    /*background-image: url("images/background2.jpg");
-    */
+    background-image: url("images/background2.jpg");
+    
     font-family: Fira Sans, Arial, Helvetica, sans-serif;
 }
 header{
