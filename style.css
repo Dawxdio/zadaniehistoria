@@ -92,7 +92,7 @@ nav{
     margin:1em 1em 1em 0;
     cursor: pointer;
     border: #ddd 1px solid;
-    filter: grayscale(1);
+    filter:grayscale(0.8);
     background-image: url("images//gify_testowe/africa-static.PNG");
 }
 .big:hover
@@ -103,7 +103,7 @@ nav{
     width: 20em;
     margin:1em 1em 1em 0;
     border: #ddd 1px solid;
-    filter: grayscale(1);
+    filter:grayscale(0.8);
     cursor: pointer;
 }
 #pacific
@@ -123,6 +123,11 @@ nav{
 .grid{
     display: grid;
     grid-template-columns: auto;
+    filter:grayscale(0.8);
+}
+.grid img
+{
+    width: 300px;
 }
 aside{
     margin-top: 1em;
