@@ -133,6 +133,7 @@ nav{
     margin-top: 1em;
     width: 15em;
     height: 5em;
+    border: #bbb 1px solid;
 }
 .grid{
     display: grid;
