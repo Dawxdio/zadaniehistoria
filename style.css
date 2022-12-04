@@ -91,7 +91,6 @@ nav{
     width: 41em;
     margin:1em 1em 1em 0;
     cursor: pointer;
-    border: #bbb 1px solid;
     filter:grayscale(0.8);
     background-image: url("images//gify_testowe/africa-static.PNG");
 }
@@ -102,7 +101,6 @@ nav{
 .med{
     width: 20em;
     margin:1em 1em 1em 0;
-    border: #bbb 1px solid;
     filter:grayscale(0.8);
     cursor: pointer;
 }
@@ -135,7 +133,6 @@ nav{
     margin-top: 1em;
     width: 15em;
     height: 5em;
-    border: #bbb 1px solid;
 }
 .grid{
     display: grid;
