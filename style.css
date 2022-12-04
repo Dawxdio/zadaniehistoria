@@ -1,4 +1,3 @@
-/*wszędzie oprócz .info, border: #ddd 1px solid; jest tymczasowy i tylko do testowania, nie dotyczy to border-top,-left,-right,-bottom*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 *{
     box-sizing: border-box;
@@ -15,7 +14,7 @@ header{
     height: 6em;
     display:flex;
     align-items: center;
-    border-bottom: #ddd 1px solid;
+    border-bottom: #bbb 1px solid;
     
 }
 .article_title
@@ -43,31 +42,32 @@ nav{
     padding-right: 15vw;
     height: 3em;
     display: flex;
-    border-bottom: #ddd 1px solid;
+    border-bottom: #bbb 1px solid;
     font-weight: 700;
     
 }
 .nawigacja{
     text-align: center;
     padding: 1em;
-    border-left: #ddd 1px solid;
+    border-left: #bbb 1px solid;
     cursor: pointer;
     transition: 0.3s;
 }
 .nawigacja:hover{
     background-color: #4d4d4d;
-    color: #ddd;
+    color: #bbb;
 }
 .info{
     margin: 1.3em 15vw;
+    width:fit-content;
     height: 5em;
-    border: #ddd 1px solid;
+    border: #bbb 1px solid;
     filter:grayscale(1);
 }
 .title{
     margin-left: 15vw;
     margin-right: 15vw;
-    border-bottom: #ddd 1px solid;
+    border-bottom: #bbb 1px solid;
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
@@ -92,7 +92,6 @@ nav{
     width: 41em;
     margin:1em 1em 1em 0;
     cursor: pointer;
-    border: #ddd 1px solid;
     filter:grayscale(0.8);
     background-image: url("images//gify_testowe/africa-static.PNG");
 }
@@ -104,7 +103,6 @@ nav{
 .med{
     width: 20em;
     margin:1em 1em 1em 0;
-    border: #ddd 1px solid;
     filter:grayscale(0.8);
     cursor: pointer;
 }
@@ -137,7 +135,7 @@ nav{
     margin-top: 1em;
     width: 15em;
     height: 5em;
-    border: #ddd 1px solid;
+    border: #bbb 1px solid;
 }
 .grid{
     display: grid;
@@ -151,7 +149,7 @@ nav{
 aside{
     margin-top: 1em;
     height:20em;
-    border: #ddd 1px solid;
+    border: #bbb 1px solid;
 }
 .logo
 {
@@ -237,7 +235,7 @@ aside{
     padding-right: 15vw;
     margin-top: 1em;
     height:10em;
-    border: #ddd 1px solid;
+    border: #bbb 1px solid;
 }
 
 
@@ -252,7 +250,7 @@ aside{
 .article1 .subsite-photo{
     max-width: 45%;
     height: auto;
-    border: #ddd 2px solid;
+    border: #bbb 2px solid;
 }
 .article1 .subsite-article{
     padding-left: 15px;
@@ -273,7 +271,7 @@ aside{
 .article2 .subsite-photo{
     max-width: 45%;
     height: auto;
-    border: #ddd 2px solid;
+    border: #bbb 2px solid;
 
 }
 .article2 .subsite-article{
@@ -317,7 +315,7 @@ aside{
 .article3 .subsite-photo{
     max-width: 45%;
     height: auto;
-    border: #ddd 2px solid;
+    border: #bbb 2px solid;
 }
 .article3 .subsite-article{
     font-size: 1.3em;
