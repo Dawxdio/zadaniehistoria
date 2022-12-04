@@ -58,6 +58,7 @@ nav{
 }
 .info{
     margin: 1.3em 15vw;
+    width:fit-content;
     height: 5em;
     border: #bbb 1px solid;
     filter:grayscale(1);
