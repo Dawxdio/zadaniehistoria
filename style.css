@@ -29,6 +29,7 @@ header{
     margin-top: 250px;
     font-size: 20px;
 }
+
 .sub_title
 {
     background-color: black;
@@ -98,6 +99,7 @@ nav{
 .big:hover
 {
     background-image: url("images/gify_testowe/africa.gif");
+    
 }
 .med{
     width: 20em;
