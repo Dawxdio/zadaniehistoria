@@ -14,7 +14,7 @@ header{
     height: 6em;
     display:flex;
     align-items: center;
-    border-bottom: #bbb 1px solid;
+    border-bottom: rgb(104, 104, 104) 1px solid;
     
 }
 .article_title
@@ -41,14 +41,14 @@ nav{
     padding-right: 15vw;
     height: 3em;
     display: flex;
-    border-bottom: #bbb 1px solid;
+    border-bottom: rgb(104, 104, 104) 1px solid;
     font-weight: 700;
     
 }
 .nawigacja{
     text-align: center;
     padding: 1em;
-    border-left: #bbb 1px solid;
+    border-left: rgb(104, 104, 104) 1px solid;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -60,13 +60,13 @@ nav{
     margin: 1.3em 15vw;
     width:fit-content;
     height: 5em;
-    border: #bbb 1px solid;
+    border: rgb(104, 104, 104) 1px solid;
     filter:grayscale(1);
 }
 .title{
     margin-left: 15vw;
     margin-right: 15vw;
-    border-bottom: #bbb 1px solid;
+    border-bottom: rgb(104, 104, 104) 1px solid;
     display: flex;
     align-items: center;
     background-repeat: no-repeat;
@@ -133,7 +133,7 @@ nav{
     margin-top: 1em;
     width: 15em;
     height: 5em;
-    border: #bbb 1px solid;
+    border: rgb(104, 104, 104) 1px solid;
 }
 .grid{
     display: grid;
@@ -147,7 +147,7 @@ nav{
 aside{
     margin-top: 1em;
     height:20em;
-    border: #bbb 1px solid;
+    border: rgb(104, 104, 104) 1px solid;
 }
 .logo
 {
@@ -233,7 +233,7 @@ aside{
     padding-right: 15vw;
     margin-top: 1em;
     height:10em;
-    border: #bbb 1px solid;
+    border: rgb(104, 104, 104) 1px solid;
 }
 
 
