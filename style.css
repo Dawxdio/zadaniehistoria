@@ -131,6 +131,15 @@ nav{
 {
     background-image: url("images/gify_testowe/harbor.gif");
 }
+#zrd
+{
+    background-position: -150px;
+    background-image: url("images/gify_testowe/zrd-static.PNG");
+}
+#zrd:hover
+{
+    background-image: url("images/gify_testowe/zrd.gif");
+}
 .small{
     margin-top: 1em;
     width: 15em;
