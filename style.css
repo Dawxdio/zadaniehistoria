@@ -252,6 +252,11 @@ aside{
     height: auto;
     border: #bbb 2px solid;
 }
+.article1 .no-border{
+    max-width: 45%;
+    height: auto;
+    border: #bbb 0px solid;
+}
 .article1 .subsite-article{
     padding-left: 15px;
     font-size: 1.3em;
