@@ -265,8 +265,18 @@ aside{
     font-weight: bolder;
 }
 
-
-
+.fx
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.fx img
+{
+    height: 100%;
+    
+}
 .article2{
     margin-bottom: 20px;
     padding-left: 15vw;
