@@ -355,4 +355,10 @@ aside{
 }
 #boom{
     width: 550px;
+}.adPerl images/reklamy/baner_ad.PNG{
+    height: 100px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
 }
